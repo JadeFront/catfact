@@ -1,0 +1,26 @@
+.container{
+    border: solid 2px aquamarine;
+    border-radius: 10px;
+    width: 70%;
+    background-color: aliceblue;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.quote p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.quote button{
+    border-radius: 10px;
+    border: solid 2px aquamarine;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: aqua;
+    font-size: 1rem;
+}
